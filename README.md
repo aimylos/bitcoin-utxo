@@ -23,6 +23,7 @@ Maintains a `UtxoSet` object by processing `Block`s and updating the set accordi
 Maintains a UTXO set following the schematic bellow. 
 - Supports serialization and deserialization.
 - Supports parameterization.
+- Supports memory and I/O management since the set is large in size.
 <img title="UtxoSet schema" src="https://github.com/galeos4/bitcoin-utxo/assets/145703956/15ee8a0f-11ae-44db-a3e1-e2d521c50b59" width="500">
 
 ## `Server`
